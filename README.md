@@ -27,6 +27,7 @@
 | [docs/01-game-dev-roles.md](docs/01-game-dev-roles.md) | ゲーム開発に必要な役割の調査。Steam 固有の作業、個人開発向けの圧縮版 |
 | [docs/02-subagent-design.md](docs/02-subagent-design.md) | 役割をサブエージェントへ落とし込む設計方針 |
 | [docs/03-scope-management.md](docs/03-scope-management.md) | なぜスコープが個人開発を殺すのか。全判断の土台 |
+| [docs/04-local-setup.md](docs/04-local-setup.md) | **ローカル開発環境のセットアップと、フェーズ1の進め方** |
 
 ## サブエージェント
 
