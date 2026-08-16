@@ -33,8 +33,8 @@
 | エージェント | 役割 | 状態 |
 |---|---|---|
 | [`game-design-reviewer`](.claude/agents/game-design-reviewer.md) | 設計整合性・スコープ番犬（read-only） | ✅ 稼働 |
-| `gameplay-engineer` | ゲームプレイ実装 | フェーズ1で作成 |
-| `qa-engineer` | テスト実行・バグ再現 | フェーズ1で作成 |
+| [`gameplay-engineer`](.claude/agents/gameplay-engineer.md) | ゲームプレイ実装（`src/`） | ✅ 稼働 |
+| [`qa-engineer`](.claude/agents/qa-engineer.md) | テスト実行・バグ再現・発話記録の集計 | ✅ 稼働 |
 | `ux-designer` / `art-director` / `audio-director` / `narrative-writer` | — | フェーズ3で作成 |
 | `steam-release-manager` / `marketing-researcher` | — | フェーズ3〜4で作成 |
 
@@ -45,8 +45,8 @@
 | フェーズ | ゴール | 状態 |
 |---|---|---|
 | **0** | 企画確定（GDD + CLAUDE.md） | ✅ 完了 |
-| **1** | **面白さの検証** — 部屋3室の縦切りプロトタイプ | ⬜ 次はここ |
-| 2 | 全14〜16室のグレーボックス通しプレイ | ⬜ |
+| **1** | **面白さの検証** — 部屋3室の縦切りプロトタイプ | 🔨 進行中 |
+| 2 | 全10〜12室のグレーボックス通しプレイ | ⬜ |
 | 3 | アート・音・UI・テキスト | ⬜ |
 | 4 | Steam リリース | ⬜ |
 
