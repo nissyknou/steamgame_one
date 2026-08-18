@@ -1,0 +1,38 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Godot-specific ignores
+.import/
+export.cfg
+export_presets.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Godot エディタが生成するキャッシュ。コミットしないこと
+# （インポート結果が環境依存で、毎回巨大な差分になる）
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# エディタ
+*.swp
+*~
+.idea/
+.vscode/
+
+# ビルド成果物
+/build/
+/export/
+*.exe
+*.pck
+*.zip
+
+# プレイテストの録音（音声そのものはコミットしない。書き起こしのみ docs/qa/ に残す）
+docs/qa/recordings/
+*.m4a
+*.mp3
+*.wav

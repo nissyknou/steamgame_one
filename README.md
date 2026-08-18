@@ -29,6 +29,7 @@
 | [docs/03-scope-management.md](docs/03-scope-management.md) | なぜスコープが個人開発を殺すのか。全判断の土台 |
 | [docs/04-local-setup.md](docs/04-local-setup.md) | **ローカル開発環境のセットアップと、フェーズ1の進め方** |
 | [docs/05-team.md](docs/05-team.md) | **誰が何をやるのか。**役割分担、あなたにしかできないこと、1サイクルの流れ |
+| [docs/06-phase1-checklist.md](docs/06-phase1-checklist.md) | 👉 **いま読むもの。**フェーズ1であなたが行う作業の手順チェックリスト |
 
 ## サブエージェント
 
